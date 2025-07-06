@@ -2,8 +2,8 @@ import streamlit as st
 from pydantic import BaseModel, Field
 from typing import List
 from langchain_openai import ChatOpenAI
-from langchain.output_parsers import PydanticOutputParser
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import PydanticOutputParser
+from langchain_core.prompts import ChatPromptTemplate
 
 # ====================================================================
 # 1. 来自 xiaohongshu_model.py 的内容
